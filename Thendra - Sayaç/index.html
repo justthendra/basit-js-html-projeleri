@@ -1,0 +1,84 @@
+<html>
+    <head>
+        
+        <title>Thendra - Sayaç</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <p class="heading">Sayaç</p>
+            <p class="counter" id="counter">0</p>
+
+            <button class="incr">+</button>
+            <button class="decr">-</button>
+        </div>
+    </body>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            width: 150px;
+            height: 150px;
+            background-color: #141414;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            border-radius: 15px;
+        }
+        .counter{
+            font-size: 4rem;
+            font-family: monospace;
+            position: absolute;
+        }
+        .heading{
+            font-family: monospace;
+            margin-top: -100px;
+        }
+        button{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            cursor: pointer;
+            font-size: 1.2em;
+            background: #131313;
+            color: white;
+            box-shadow: 0 0 10px rgb(51, 51, 51, 0.158);
+            border: none;
+            border-radius: 50px;
+        }
+        .decr{
+            bottom: -15%;
+            right: 10%;
+        }
+        .incr{
+            bottom: 10%;
+            right: -15%;
+        }
+    </style>
+    <script>
+            let counter = document.getElementById('counter');
+            let incr = document.querySelector('.incr');
+            let decr = document.querySelector('.decr');
+
+            let count = 0;
+            incr.addEventListener("click", () => {
+                count++;
+                updateDisplay();
+            });
+            decr.addEventListener("click", () => {
+                count--;
+                updateDisplay();
+            });
+            function updateDisplay(){
+                counter.innerHTML = count;
+            };
+        </script>
+</html>
