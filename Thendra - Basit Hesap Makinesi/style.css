@@ -1,0 +1,64 @@
+/* Thendra ben karşim */
+
+.basefendi {
+  margin-top: -450px;
+  margin-left: 70px;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+
+.kutucuk {
+  background-color: #131313;
+  display: flex;
+  top: 200px;
+  right: 230px;
+  width: 500px;
+  height: 600px;
+  border-radius: 7px;
+  position: absolute;
+  align-items: center;
+}
+
+button {
+  padding: 20px;
+  width: 100px;
+  font-size: 18px;
+  border: 1px solid white;
+  background-color: #131313;
+  border-radius: 7px;
+  font-size: 32px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  color: white;
+  transition: 0.3s ease;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #131313;
+}
+
+.ekran1 {
+  width: 400px;
+  height: 50px;
+  border-radius: 7px;
+  border: 2px solid black;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  color: #131313;
+  padding: 10px;
+}
+.ortala {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: white;
+}
