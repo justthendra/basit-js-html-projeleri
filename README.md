@@ -1,3 +1,3 @@
 # Basit Javascript ve HTML Projeleri
 
-Kafanıza göre bakın yeni başladım o kadar.
+Kafanıza göre bakın açıklama yazmaya üşendim.
